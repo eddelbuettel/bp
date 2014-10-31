@@ -1,0 +1,21 @@
+edd@max:~/git$ wdiff startbootstrap-the-big-picture/css/bootstrap.min.css bp/css/bootstrap.min.css -3
+
+======================================================================
+ [-Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#428bca;text-decoration:none}a:hover,a:focus{color:#2a6496;text-decoration:underline}a:focus{outline:thin-] {+Neue",Helvetica,Arial,sans-serif;font-size:18px;line-height:1.42857143;color:#bbb;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#2a6496;text-decoration:none}a:hover,a:focus{color:#2a6496;text-decoration:underline}a:focus{outline:thin+}
+======================================================================
+edd@max:~/git$
+
+ie 
+
+ [-Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,
+	textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#428bca;text-decoration:none}a:hover,a:focus{color:#2a6496;text-decoration:underline}a:focus{outline:thin-]
+ {+Neue",Helvetica,Arial,sans-serif;font-size:18px;line-height:1.42857143;color:#bbb;background-color:#fff}input,button,select,
+	textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#2a6496;text-decoration:none}a:hover,a:focus{color:#2a6496;text-decoration:underline}a:focus{outline:thin+}
+
+
+further changes:
+
+Hadley: #8CACD4  suggestion for link
+
+Text better with 'whiter' color:   #ddd, 
+link settled on 'lighter blue':    #80ccff   (via http://www.w3schools.com/tags/ref_colorpicker.asp)
